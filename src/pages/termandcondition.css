@@ -1,0 +1,18 @@
+.terms-background {
+    background-image: url('/path-to-your-background-image.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+  }
+  
+  .terms-overlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Black overlay with transparency */
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
