@@ -86,9 +86,9 @@ const Footer = () => {
           <Typography variant="body1" sx={{ display: 'flex', alignItems: 'center', color: '#f4f4f4' }}>
             <PhoneIcon sx={{ marginRight: 1, color: '#007bff' }} /> +91 8000118051
           </Typography>
-          <Typography variant="body1" sx={{ display: 'flex', alignItems: 'center', color: '#f4f4f4' }}>
+          {/* <Typography variant="body1" sx={{ display: 'flex', alignItems: 'center', color: '#f4f4f4' }}>
             <WhatsAppIcon sx={{ marginRight: 1, color: '#007bff' }} /> +91 9558357688
-          </Typography>
+          </Typography> */}
         </Grid>
 
         {/* Company Info Section */}
@@ -97,12 +97,12 @@ const Footer = () => {
             CRUDEX PRIVATE LIMITED
           </Typography>
           <Typography variant="body2" sx={{ color: '#f4f4f4' }}>
-            Registered office: C/o Rajneesh Singh, Vill Bhavanipur Robertsgunj,
-            Madhupur, Sonbhadra, Uttar Pradesh, 231216, India
+            Registered office: 3rd Floor, Rain Plaza Complex, Gotri Rd, nr. Shell Petrol Pump Krishna Nursing Home, Gotri, Vadodara, Gujarat 390021
+ 
           </Typography>
-          <Typography variant="body2" mt={2} sx={{ color: '#f4f4f4' }}>
+          {/* <Typography variant="body2" mt={2} sx={{ color: '#f4f4f4' }}>
             Factory Address: F-35, PHASE-2 INDUSTRIAL AREA, RAM NAGAR, CHANDAULI, 221008, India
-          </Typography>
+          </Typography> */}
         </Grid>
       </Grid>
 

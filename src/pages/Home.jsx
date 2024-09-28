@@ -90,7 +90,7 @@ const Home = () => {
         </Box>
 
         {/* Our Products Section */}
-        <Box sx={{ my: 5 }}>
+        {/* <Box sx={{ my: 5 }}>
           <Typography variant="h4" gutterBottom>
             Our Products
           </Typography>
@@ -117,7 +117,7 @@ const Home = () => {
               />
             </Grid>
           </Grid>
-        </Box>
+        </Box> */}
       </Container>
       <Box sx={{ backgroundColor: "transperant", py: 6 }}>
         <Container>

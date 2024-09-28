@@ -42,18 +42,18 @@ const pages = [
     name: 'Privacy Policy',
     path: '/policy',
   },
-  {
-    name: 'Refund Policy',
-    path: '/refund',
-  },
+  // {
+  //   name: 'Refund Policy',
+  //   path: '/refund',
+  // },
   {
     name: 'Terms And Condition',
     path: '/terms',
   },
-  {
-    name: 'Sign In',
-    path: '/signin',
-  },
+  // {
+  //   name: 'Sign In',
+  //   path: '/signin',
+  // },
 ];
 
 const settings = [{ name: 'Profile' }, { name: 'Account' }, { name: 'Dashboard' }, { name: 'Logout' }];
@@ -136,11 +136,13 @@ function ResponsiveAppBar() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
+
+            <Typography>SIGN IN</Typography>
+            {/* <Tooltip title="Open settings">
               <IconButton sx={{ p: 0 }}>
                 <Avatar alt="User Avatar" src="/static/images/avatar/2.jpg" />
               </IconButton>
-            </Tooltip>
+            </Tooltip> */}
           </Box>
         </Toolbar>
       </Container>
